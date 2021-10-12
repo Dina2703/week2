@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
     "start": "npm run lite"
   },
   "author": "Dina",
@@ -18,6 +19,7 @@
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
+    "node-sass": "^6.0.1",
     "popper.js": "^1.16.1"
   }
 }
